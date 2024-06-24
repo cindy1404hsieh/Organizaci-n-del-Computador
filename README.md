@@ -8,4 +8,13 @@
  2)Ingresar notacion cientifica normalizada en base 2 y visualizar su 
  configuraciones hexadecimal o binarias de dicho numero almacenado 
  en formato IEEE 754 de presicion simple
-
+## Linea para ejecutar el programa
+```
+nasm -f elf64 -o conversor.o conversor.asm
+```
+```
+ld -o conversor conversor.o
+```
+```
+./conversor
+```
